@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.container {
+    width: 1440px;
+    height: 4700px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 94px;
+    margin-right: 40px;
+}
+
+nav a {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #252B42;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FA4A0C;
+    transition: 0.3s;
+}
+
+/* navbar tugadi */
+main {
+    width: 1440px;
+    height: 674px;
+    background-image: url(./Rectangle48.png);
+    background-repeat: no-repeat;
+    padding-top: 73px;
+}
+
+main h4 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    color: #F6F6F6;
+}
+
+main h1 {
+    width: 937px;
+    height: 160px;
+    font-family: Poppins;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.20000000298023224px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 23px;
+}
+
+main p {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #F6F6F6;
+}
+
+main div {
+    margin-top: 40px;
+    display: flex;
+    gap: 34px;
+    justify-content: center;
+}
+
+.play {
+    width: 236px;
+    height: 68px;
+    border-radius: 30px;
+    background-color: #FA4A0C;
+    border: none;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    color: white;
+}
+
+.store {
+    width: 236px;
+    height: 68px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    color: white;
+}
+.play:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;    
+}
+.store:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;  
+}
+
+/* main tugadi */
+.telefon {
+    width: 848px;
+    height: 840px;
+    position: relative;
+    top: -275px;
+    left: 296px;
+    border-bottom: 1px solid gray;
+}
+
+/* telefon tugadi */
+section {
+    width: 1240px;
+    height: 756px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bir {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+}
+
+section h2 {
+    font-family: Poppins;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+    color: #000000;
+}
+
+section h4 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    color: #FA4A0C;
+    text-align: left;
+
+}
+
+section h3 {
+    width: 561px;
+    height: 114px;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #252B42;
+}
+
+section p {
+    width: 407px;
+    height: 76px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #737373;
+}
+
+.bir1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+/* section tugadi */
+.item {
+    width: 1440px;
+    height: 516px;
+    background-image: url(./Rectangle47.png);
+    background-repeat: no-repeat;
+    padding-top: 145px;
+}
+
+.item h2 {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.item p {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+.play1 {
+    width: 142px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: #FA4A0C;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: white;
+    border: none;
+}
+.play1:hover{
+    background-color: transparent;
+    transition: 0.3s;
+    border: 1px solid white;
+}
+.store1 {
+    width: 162px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+}
+.store1:hover{
+    background-color: white;
+    color: black;
+    border: none;
+    transition: 0.3s;
+}
+.item div {
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+}
+
+/* item tugadi */
+footer {
+    width: 1210px;
+    height: 133px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 71px;
+    padding-right: 35px;
+}
+
+footer p {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: right;
+    color: #5C5C5C;
+}
+.footer1{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
